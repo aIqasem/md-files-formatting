@@ -125,7 +125,7 @@
   
 <BR>
 
-   - ___When coppied at an md file___ :
+   - ___When pasted at an md file___ :
      
   | _Checked_ | _Subject_ | _mark_ | _Full mark_ | _Percentage_ |
   | :--: | -- | :--: | :--: | :--: |
