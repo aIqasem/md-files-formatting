@@ -17,6 +17,7 @@
 - - [Blockquote inside a list](https://github.com/aIqasem/md-files-formatting#blockquote-inside-a-list)
 - [Mark a word as code](https://github.com/aIqasem/md-files-formatting#mark-a-word-as-a-code-)
 - [Linking](https://github.com/aIqasem/md-files-formatting#linking-)
+- [Tables](https://github.com/aIqasem/md-files-formatting/blob/main/Creating%20md%20tables%20from%20spreadsheets.md)
 
 ---
 
