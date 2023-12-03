@@ -57,7 +57,16 @@
 
   ```python
   import pyperclip  
-  
+  from dateutil import parser
+
+
+  def is_valid_date(date_string):
+    try:
+        parser.parse(date_string)
+        return True
+    except ValueError:
+        return False
+
   def is_numeric(s):
       try:
           num = float(s)
@@ -80,7 +89,7 @@
       cells = table_rows[2].strip().split("|")[1:-1]
       numbers = []
       for i in range(len(cells)):
-          if is_numeric(cells[i]) or cells[i].strip() == "TRUE" or cells[i].strip() == "FALSE":
+          if is_numeric(cells[i]) or cells[i].strip() == "TRUE" or cells[i].strip() == "FALSE" or is_valid_date(cells[i]):
               numbers.append(i)
   
       # for the 2nd row .. edit the header (the "| -- |") of the cells of numbers to center the column .. set it to "| :--: |"
